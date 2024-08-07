@@ -1,0 +1,43 @@
+<!-- <p>login works!</p> -->
+
+<div class="header">
+    <h1>Welcome to ShopLogo</h1>
+    <p>Your one-stop shop for all your needs!</p>
+  </div>
+  
+  
+<div class="back-img">
+  
+<div class="card">
+  <div class="card-body">
+    <h2>---------Login Details--------</h2>
+    For Admin: <br>
+    Username=admin and Password=123
+    <br>
+    For Seller: <br>
+    Username=seller and Password=123
+    <br>
+    For Buyer:<br>
+    Username=buyer and Password=123
+  </div>
+</div>
+
+
+<div class="login-container">
+    
+    <label for="username">Username:</label>
+    <input type="text" id="username" [(ngModel)]="username"><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" [(ngModel)]="password"><br>
+    <button (click)="login()">Login</button>
+    <h3>Register Here</h3>
+    <button (click)="regist()">Register</button>
+
+    
+</div>
+</div>
+
+
+<div class="footer">
+    <p>&copy; 2024 ShopLogo. All rights reserved.</p>
+  </div>
